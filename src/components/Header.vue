@@ -8,7 +8,7 @@
           href="#nosotros">Me presento</a>
         <a
           :class="{ 'active': active === 1 }"
-          href="#servicios">Skills</a>
+          href="#servicios">Estudios y Trabajos</a>
         <a
           :class="{ 'active': active === 2 }"
           href="#contactanos">Contactame</a>
@@ -51,7 +51,7 @@
       },
 
       setPositions() {
-        this.servicios = document.getElementById('servicios').offsetTop - 120
+        this.servicios = (document.getElementById('servicios').offsetTop - 100)
         this.contactanos = document.getElementById('contactanos').offsetTop - 120
       }
     }
