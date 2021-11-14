@@ -35,15 +35,15 @@
   @import '@/scss/_base.scss';
   ::-webkit-scrollbar {
     width: 8px;
-    background-color: rgb(172, 7, 215);
+    background-color: rgb(41, 215, 211);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(172, 7, 215);
+    background-color: rgb(41, 215, 211);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(172, 7, 215);
+    background-color: rgb(41, 215, 211);
     text-decoration: none;
 }
 
