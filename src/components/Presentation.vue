@@ -42,7 +42,7 @@
 
             <div class="container-fluid">
               <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 mx-2 my-2">
                   <span style="font-size:13px;font-weight:bold;">Detalle</span>
                   <div class="px-3 pt-2">
                     <p id="spnCustomerName">{{item.institution}}</p>
@@ -96,6 +96,11 @@
       return {
         estudios: [
           {
+            title: "Java y Testing" ,
+            institution: "Online - INFORMATORIO 3° ETAPA",
+            date: "Septiembre 2021 - presente"
+          },
+          {
             title: "Introducción al desarrollo de Videojuegos" ,
             institution: "Online - InfoGamers",
             date: "Octubre 2021 - Duración 1 Mes"
@@ -106,6 +111,11 @@
             date: "Mayo 2021 - Septiembre 2021"
           },
           {
+            title: "Idioma Ingles" ,
+            institution: "Instituto L&A de lenguas y arte",
+            date: "Marzo 2021 - presente - Actualmente Nivel A2"
+          },
+          {
             title: "Técnico Universitario en Programación" ,
             institution: "Universidad Tecnologica Nacional",
             date: "Marzo 2019 - Mayo 2021"
@@ -114,7 +124,8 @@
             title: "Técnico Analista de Sistemas" ,
             institution: "Instituto Superior de Informática Virasoro ",
             date: "Marzo 2011 - Marzo 2013"
-          }
+          },
+
         ],
         trabajos: [
           {

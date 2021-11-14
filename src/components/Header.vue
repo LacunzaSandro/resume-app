@@ -31,8 +31,8 @@
     computed: {
       active() {
         switch (true) {
-          case (this.offset < this.servicios) : return 0
-          case (this.offset >= this.servicios && this.offset < this.contactanos) : return 1
+          case (this.offset < (this.servicios-3)) : return 0
+          case (this.offset > (this.servicios-7) && this.offset <= (this.contactanos-2)) : return 1
           default : return 2
         }
       }
@@ -51,7 +51,7 @@
       },
 
       setPositions() {
-        this.servicios = (document.getElementById('servicios').offsetTop - 100)
+        this.servicios = (document.getElementById('servicios').offsetTop - 120)
         this.contactanos = document.getElementById('contactanos').offsetTop - 120
       }
     }
